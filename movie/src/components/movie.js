@@ -13,7 +13,6 @@ const Movie = ({ movie }) => {
       </div>
       <p className="para">{movie.Year}</p>
       <p className="para">{movie.Type}</p>
-      <p className="para">{movie.imdbID}</p>
     </div>
   );
 };
