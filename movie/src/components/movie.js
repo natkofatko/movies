@@ -9,9 +9,11 @@ const Movie = ({ movie }) => {
     <div className="movie">
       <h2>{movie.Title}</h2>
       <div>
-        <img width="200" alt={movie.Title} src={poster}></img>
+        <img width="200" height="280 auto" alt={movie.Title} src={poster}></img>
       </div>
-      <p>{movie.Year}</p>
+      <p className="para">{movie.Year}</p>
+      <p className="para">{movie.Type}</p>
+      <p className="para">{movie.imdbID}</p>
     </div>
   );
 };
